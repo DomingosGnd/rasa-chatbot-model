@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+- story: saudacao feliz
+  steps:
+    - intent: saudacao
+    - action: utter_saudacao
+
+- story: despedida
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+- story: usuario feliz
+  steps:
+    - intent: humor_feliz
+    - action: utter_humor_feliz
+
+- story: usuario triste
+  steps:
+    - intent: humor_triste
+    - action: utter_humor_triste
+
+- story: duvida sobre sintomas
+  steps:
+    - intent: sintomas
+    - action: utter_sintomas
+
+- story: duvida sobre exames
+  steps:
+    - intent: exames
+    - action: utter_exames
+
+- story: duvida sobre alimentacao
+  steps:
+    - intent: alimentacao
+    - action: utter_alimentacao
+
+- story: duvida sobre exercicios
+  steps:
+    - intent: exercicios
+    - action: utter_exercicios
+
+- story: duvida sobre medicacao
+  steps:
+    - intent: medicacao
+    - action: utter_medicacao
+
+- story: sinais de alerta
+  steps:
+    - intent: sinais_alerta
+    - action: utter_sinais_alerta

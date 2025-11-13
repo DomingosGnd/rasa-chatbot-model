@@ -1,0 +1,59 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - afirmacao
+  - negacao
+  - humor_feliz
+  - humor_triste
+  - bot_pergunta
+  - sintomas
+  - exames
+  - alimentacao
+  - exercicios
+  - medicacao
+  - sinais_alerta
+
+responses:
+  utter_saudacao:
+    - text: "Olá! 😊 Como posso te ajudar hoje?"
+    - text: "Oi! Seja bem-vinda. Como está se sentindo?"
+
+  utter_despedida:
+    - text: "Tchau! Cuide-se e tenha uma boa gestação! 🤰"
+    - text: "Até logo! Lembre-se de se cuidar bem. ❤️"
+
+  utter_humor_feliz:
+    - text: "Que bom ouvir isso! Continue cuidando de você e do bebê. 🌸"
+
+  utter_humor_triste:
+    - text: "Sinto muito por isso. É normal ter dias difíceis durante a gestação. Quer que eu te conte algo que pode ajudar?"
+
+  utter_bot_pergunta:
+    - text: "Sou um assistente virtual criado para te ajudar com informações sobre gravidez. 🤖"
+
+  utter_sintomas:
+    - text: "Os sintomas mais comuns no primeiro trimestre incluem náuseas, cansaço e sensibilidade nos seios. Se notar sintomas fortes ou preocupantes, procure seu médico."
+
+  utter_exames:
+    - text: "Durante a gravidez, é importante fazer exames como hemograma, tipagem sanguínea, glicose e ultrassonografia. No segundo trimestre, o ultrassom morfológico é essencial."
+
+  utter_alimentacao:
+    - text: "Durante a gestação, mantenha uma alimentação equilibrada com frutas, verduras, proteínas e bastante água. Evite carnes cruas, álcool e excesso de cafeína."
+
+  utter_exercicios:
+    - text: "Exercícios leves como caminhadas, alongamentos e yoga são geralmente seguros, mas sempre consulte o médico antes de começar."
+
+  utter_medicacao:
+    - text: "Nunca tome medicamentos sem orientação médica. Paracetamol costuma ser seguro, mas confirme sempre com seu médico antes de usar qualquer remédio."
+
+  utter_sinais_alerta:
+    - text: "Procure atendimento médico se tiver dor abdominal intensa, sangramento, febre alta, tontura ou ausência de movimentos do bebê."
+
+  utter_default:
+    - text: "Desculpe, não entendi bem. Pode reformular sua pergunta?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

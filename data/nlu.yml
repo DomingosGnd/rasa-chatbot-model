@@ -1,0 +1,106 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - Olá
+    - Oi
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - Tudo bem?
+    - Como vai?
+
+- intent: despedida
+  examples: |
+    - Tchau
+    - Até logo
+    - Até mais
+    - Fique bem
+    - Tenha um bom dia
+    - Até breve
+
+- intent: afirmacao
+  examples: |
+    - Sim
+    - Claro
+    - Com certeza
+    - Está bem
+    - Certo
+
+- intent: negacao
+  examples: |
+    - Não
+    - Acho que não
+    - Não sei
+    - Prefiro não
+    - Negativo
+
+- intent: humor_feliz
+  examples: |
+    - Estou bem
+    - Tudo ótimo
+    - Maravilhoso
+    - Feliz
+    - Muito bem hoje
+    - Estou animada
+
+- intent: humor_triste
+  examples: |
+    - Estou triste
+    - Meu dia foi ruim
+    - Estou desanimada
+    - Sinto-me mal
+    - Não estou bem
+
+- intent: bot_pergunta
+  examples: |
+    - Você é um bot?
+    - Estou falando com um robô?
+    - Você é humano?
+    - Quem é você?
+
+- intent: sintomas
+  examples: |
+    - Quais são os sintomas no primeiro trimestre?
+    - O que posso sentir no início da gravidez?
+    - Sintomas de gravidez nas primeiras semanas?
+    - Quais os sintomas comuns da gravidez?
+    - Estou com náuseas, isso é normal?
+    - Sinto tontura, isso é comum?
+
+- intent: exames
+  examples: |
+    - Quais exames preciso fazer durante a gravidez?
+    - O que devo verificar no segundo trimestre?
+    - Quais exames são importantes durante a gestação?
+    - Que exames devo fazer no pré-natal?
+
+- intent: alimentacao
+  examples: |
+    - O que devo comer na gravidez?
+    - Qual a dieta recomendada para grávidas?
+    - Posso comer carne crua durante a gravidez?
+    - Quais alimentos são bons durante a gestação?
+    - Posso beber café na gravidez?
+
+- intent: exercicios
+  examples: |
+    - Posso fazer exercícios durante a gravidez?
+    - Quais exercícios são recomendados na gestação?
+    - Posso praticar yoga estando grávida?
+    - Caminhar é bom para grávidas?
+
+- intent: medicacao
+  examples: |
+    - Posso tomar paracetamol na gravidez?
+    - É seguro usar remédios?
+    - Quais medicamentos devo evitar durante a gestação?
+    - Que vitaminas posso tomar?
+
+- intent: sinais_alerta
+  examples: |
+    - Estou com dor forte na barriga, é normal?
+    - Tenho sangramento, o que devo fazer?
+    - Quais são os sinais de alerta na gravidez?
+    - Quando devo procurar o médico?

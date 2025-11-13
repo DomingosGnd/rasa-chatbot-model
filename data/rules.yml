@@ -1,0 +1,47 @@
+version: "3.1"
+
+rules:
+  - rule: responder saudacao
+    steps:
+      - intent: saudacao
+      - action: utter_saudacao
+
+  - rule: responder despedida
+    steps:
+      - intent: despedida
+      - action: utter_despedida
+
+  - rule: responder humor triste
+    steps:
+      - intent: humor_triste
+      - action: utter_humor_triste
+
+  - rule: responder sintomas
+    steps:
+      - intent: sintomas
+      - action: utter_sintomas
+
+  - rule: responder exames
+    steps:
+      - intent: exames
+      - action: utter_exames
+
+  - rule: responder alimentacao
+    steps:
+      - intent: alimentacao
+      - action: utter_alimentacao
+
+  - rule: responder exercicios
+    steps:
+      - intent: exercicios
+      - action: utter_exercicios
+
+  - rule: responder medicacao
+    steps:
+      - intent: medicacao
+      - action: utter_medicacao
+
+  - rule: responder sinais de alerta
+    steps:
+      - intent: sinais_alerta
+      - action: utter_sinais_alerta
