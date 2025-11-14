@@ -126,6 +126,5 @@ Créditos a **FOCA IA** e contribuições de **Embar**.
 
 ## ✨ Autor
 
-**Desenvolvido por:** Embar — Projeto FOCA IA  
-📧 Email: [coloca teu email aqui]  
-🌐 GitHub: [https://github.com/teu-usuario](https://github.com/teu-usuario)
+**Desenvolvido por:** Domingos Bié — Projeto FOCA IA    
+
